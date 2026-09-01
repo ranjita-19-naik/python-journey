@@ -3,15 +3,16 @@ s = {1, 2, 3, 4, 5, "ranju", "suss", "sammu", 45}
 r = {1, 2, 3, 4, 5, "nanu","adu","ava",}
 print(type(s))
 #methods of sets
-"""s.add(6)
+
+s.add(6)
 print(s)
 print(s,type(s))
 s.remove(3)
 print(s)
 s.discard(4)
-print(s)"""
+print(s)
 #print(s.clear())
-"""print(s.copy())
+print(s.copy())
 print(s.union(r))
 print(s.intersection(r))
 print(s.isdisjoint(r))
@@ -43,13 +44,13 @@ s.add(int(n))
 n = int(input("Enter the number :"))
 s.add(int(n))
 
-print(s)"""
-"""#3
+print(s)
+#3
 s = set()
 s.add(20)
 s.add(30)
 s.add('18')
-print(len(s))"""
+print(len(s))
 #4
 s = {}
 print(type(s))
